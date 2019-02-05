@@ -18,7 +18,8 @@ function whileLoop(){
 }
 
 function doWhileLoop(array){
-  function incrementVariable(i) {
+  var i = 0;
+  function incrementVariable() {
   i++;
   do {
   console.log("I run once regardless.");
