@@ -18,8 +18,9 @@ function whileLoop(){
 }
 
 
-  var i = 0;
+  
   function incrementVariable() {
+  var i = 0;
   i++;
   return i;
   }
