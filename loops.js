@@ -29,6 +29,6 @@ function whileLoop(){
   do {
   console.log("I run once regardless.");
   array.pop();
-} while (incrementVariable() < i && array.length > 0 );
+} while (array.length > 0 );
 }
 
