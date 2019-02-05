@@ -17,15 +17,17 @@ function whileLoop(){
   return "done";
 }
 
-function doWhileLoop(array){
+
   var i = 0;
   function incrementVariable() {
   i++;
   return i;
+  }
+  
+  function doWhileLoop(array){
   do {
   console.log("I run once regardless.");
   array.pop();
-} while (incrementVariable() < i && array.length );
-}
+} while (incrementVariable() < i && array.length > 0 );
 }
 
